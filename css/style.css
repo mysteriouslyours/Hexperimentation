@@ -163,5 +163,43 @@ header {
     transition: transform 0.3s; 
 }
 /*A-lore-chemy + Equipment*/
+#lore0 {
+	border: 3px dotted #fdaa3f;
+	text-align: center;
+	margin: 2%;
+}
 
+#cols {
+	display: flex;
+	flex-direction: row;
+}
+
+#col1, #col2 {
+	display: flex;
+	flex-flow: column wrap;
+	top: 0;
+	margin-left: 5%;
+	margin-bottom: 51px;
+	background-color: #38393c;
+	width: 30%;
+	height: 50%;
+}
+
+#col2 {
+	margin-top: 2%;
+}
+
+#col1 a, #col2 a {
+	width: 90%;
+	background-color: purple;
+	text-align: center;
+	margin: 5%;
+}
+
+#aside {
+	border: 3px dotted orange;
+	margin-left: 5%;
+	width: 20%;
+	margin-bottom: 51px;
+}
 /*The Periodic Table --> I can use tables here */
