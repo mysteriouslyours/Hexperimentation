@@ -181,7 +181,7 @@ header {
 	margin-left: 5%;
 	margin-bottom: 51px;
 	background-color: #38393c;
-	width: 30%;
+	width: 15%;
 	height: 50%;
 }
 
@@ -199,7 +199,18 @@ header {
 #aside {
 	border: 3px dotted orange;
 	margin-left: 5%;
-	width: 20%;
+	width: 50%;
+	height: 400px;
 	margin-bottom: 51px;
+	overflow: auto;
 }
-/*The Periodic Table --> I can use tables here */
+
+#aside p {
+	margin: 2%;
+}
+
+iframe {
+	margin-left: 5%;
+	margin-top: 10%;
+	margin-bottom: 45%;
+}
